@@ -5,10 +5,19 @@ h1{
 header{
     background-color:cornflowerblue;
     color: white;
+    Padding: 30px;
+}
+.nav{
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer{
     background-color:cornflowerblue;
     color: white;
     text-align: center;
+    Padding: 10px;
 }
