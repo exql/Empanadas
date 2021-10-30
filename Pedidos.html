@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59c8ee105d.js" crossorigin="anonymous"></script>
     <title>Casa de Empanadas</title>
 </head>
 
@@ -20,21 +22,33 @@
             <!--<a href="pages/signup.html">Registrarte</a>-->
             <!--<a href="pages/login.html">Iniciar Sesión</a>-->
         </nav>
-      </header>
-      <h2> Hace tu pedido</h2>
-    <form action="show_data.html" target="_blank">
-        <lavel for="Nombre"> Nombre</lavel> <input type="text" name="Nombre" placeholder="Escribí tu Nombre">
-        <lavel for="Apellido">Apellido</lavel> <input type="text" name="Apellido" placeholder="Escribí tu Apellido">
-        <lavel for="Telefono">Telefono</lavel> <input type="number" name="Telefono" placeholder="Número de Telefono">
-        <lavel for="domicilio">Direccón</lavel> <input type="text" name="domicilio" placeholder="Escribí tu domicilio"><br>
-        <lavel for="sabores">Sabores</lavel> <input type="text" name="Sabores" placeholder="Detalla los sabores y las cantidades"><br>
-        <input type="submit" value="Enviar">
+    </header>
+    <h2> Hace tu pedido</h2>
+    <div class="container">
+        <form action="show_data.html" target="_blank">
+            <lavel for="Nombre"> Nombre</lavel> <input id="fname" type="text" name="Nombre" placeholder="Escribí tu Nombre">
+            <lavel for="Apellido">Apellido</lavel> <input id="lname" type="text" name="Apellido" placeholder="Escribí tu Apellido">
+           <!--<lavel for="Telefono">Teléfono</lavel> <input id="Telefono" type="number" name="Telefono"
+                placeholder="Número de Telefono"><br>-->
+            <lavel for="domicilio">Direccón</lavel> <input  id="domicilio" type="text" name="domicilio"
+                placeholder="Escribí tu domicilio"><br>
 
-    </form>
 
+            <label for="sabores">Sabores</label><br>
+            <textarea id="sabores" name="sabores" placeholder="Detalla los sabores y cantidades..." style="height:200px"
+                style=""></textarea> <br>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
     <footer>
         <p> ENCONTRANOS EN LAS REDES </p>
-
+        <a href="https://www.instagram.com/migustooficial/" target="blank"> <i class="fab fa-instagram-square"
+            aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/migustoar/" target="blank"><i class="fab fa-facebook-square"
+            aria-hidden="true"></i> </a>
+    <a href="https://www.youtube.com/migustooficial" target="blank"><i class="fab fa-youtube-square"
+            aria-hidden="true"></i> </a>
     </footer>
 
 </body>
