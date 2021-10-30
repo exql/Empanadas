@@ -87,18 +87,20 @@ input[type=text], textarea {
      }
 .nosotros{
 position: absolute;
-top:190px;
+/*top:190px;
 left: 30%;
-right: 30%;
+right: 30%;*/
+z-index: 3;
 font-size: 22px;
 color: black;
 }
 .descripcion{
     position: absolute;
     text-align: center;
-    top: 290px;
+   /* top: 290px;
     left: 5%;
-    right: 5%;
+    right: 5%;*/
+    z-index: 2;
     font-size: 22px;
     color: black;
    /* border-style: dotted;
@@ -107,6 +109,7 @@ color: black;
   #fondo{
      width: 100%;
     opacity: 0.6;
+    /*z-index: -1;*/
   /*border-style: dotted;
   border-color: brown;*/
 
